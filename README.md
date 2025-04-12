@@ -13,7 +13,7 @@ pip install --upgrade --quiet \
   transformers \
   torch \
   accelerate \
-  llmcompressor  
+  llmcompressor
 
 vllm serve compressed/ --max-model-len=2048
 
