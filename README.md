@@ -35,3 +35,19 @@ curl -s -k -X 'POST' \
     "stream": false
 }' | jq .
 ```
+
+```bash
+$ tree -h compressed/
+[  388]  compressed/
+├── [ 1.5K]  config.json
+├── [  194]  generation_config.json
+├── [ 4.7G]  model-00001-of-00002.safetensors
+├── [ 2.7G]  model-00002-of-00002.safetensors
+├── [  63K]  model.safetensors.index.json
+├── [  130]  recipe.yaml
+├── [  296]  special_tokens_map.json
+├── [  50K]  tokenizer_config.json
+└── [  16M]  tokenizer.json
+
+1 directory, 9 files
+```
